@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEditor;
 using UnityEngine;
-private float speed = 30;
+
 public class MoveLeft : MonoBehaviour
 {
-    
+    private float speed = 20;
+
     // Start is called before the first frame update
     void Start()
     {
